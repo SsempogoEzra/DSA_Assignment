@@ -6,8 +6,8 @@ def subject_marks_getter(subject):
 
     print(f"Enter the marks for{subject}:")
     for test in tests:
-        mark = float(input(f"Enter marks for {test}:"))
         while True:
+            mark = float(input(f"Enter marks for {test}:"))
             if 0 <= mark<=100:
                 marks.append(mark)
                 break
