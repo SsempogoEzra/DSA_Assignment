@@ -4,7 +4,7 @@ def subject_marks_getter(subject):
     tests=['Assignment','CourseWork','MidTerm','EndofTerm']
     marks=[]
 
-    print(f"Enter the marks for{subject}:")
+    print(f"Enter the marks for{subject}")
     for test in tests:
         while True:
             mark = float(input(f"Enter marks for {test}:"))
