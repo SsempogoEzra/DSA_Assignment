@@ -1,5 +1,3 @@
-# cli_interface.py
-
 import farmer_management
 import transactions
 import statement
