@@ -5,7 +5,6 @@ import transactions
 import statement
 
 def display_menu():
-    """Displays the main menu options."""
     print("\n--- SACCO Management System ---")
     print("1. Create New Farmer Account")
     print("2. Deposit Money")
@@ -15,8 +14,7 @@ def display_menu():
     print("6. Exit")
     print("-----------------------------")
 
-def get_int_input(prompt):
-    """Gets an integer input from the user with error handling."""
+def get_int_input(prompt): #gets user  functions with error handling
     while True:
         try:
             return int(input(prompt))
@@ -35,8 +33,8 @@ def get_string_input(prompt):
     """Gets a string input from the user."""
     return input(prompt).strip()
 
+#Main function to run the CLI programm.
 def main():
-    """Main function to run the CLI application."""
     while True:
         display_menu()
         choice = get_int_input("Enter your choice: ")
