@@ -1,3 +1,3 @@
 # Data Structures and ALgorithmes Class Assignments Repo
 
- **The different assignmets sit in seperated directories**
+ **The different assignmets are in seperate directories**
