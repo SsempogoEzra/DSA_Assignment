@@ -1,5 +1,3 @@
-# farmer_management.py
-
 import sacco_data
 
 def generate_farmer_id():
@@ -26,10 +24,10 @@ def get_farmer_details(farmer_id):
     else:
         print(f"Error: Farmer with ID {farmer_id} not found.")
 
-# Example usage (can be removed or commented out later):
-if __name__ == "__main__":
-    create_new_farmer()
-    create_new_farmer()
-    get_farmer_details("FR001")
-    get_farmer_details("FR002")
-    get_farmer_details("FR003")
+#Testing.... 
+# if __name__ == "__main__":
+#     create_new_farmer()
+#     create_new_farmer()
+#     get_farmer_details("FR001")
+#     get_farmer_details("FR002")
+#     get_farmer_details("FR003")

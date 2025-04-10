@@ -1,10 +1,8 @@
-# transactions.py
-
 import sacco_data
 from datetime import datetime
 
+#Deposits money into a farmer's account.
 def deposit_money(farmer_id, amount):
-    """Deposits money into a farmer's account."""
     if amount <= 0:
         print("Error: Deposit amount must be positive.")
         return
@@ -23,8 +21,8 @@ def deposit_money(farmer_id, amount):
     else:
         print(f"Error: Farmer with ID {farmer_id} not found.")
 
+# Withdraws money from a farmer's account.
 def withdraw_money(farmer_id, amount):
-    """Withdraws money from a farmer's account."""
     if amount <= 0:
         print("Error: Withdrawal amount must be positive.")
         return
@@ -47,9 +45,9 @@ def withdraw_money(farmer_id, amount):
         print(f"Error: Farmer with ID {farmer_id} not found.")
 
 # Example usage (can be removed or commented out later):
-if __name__ == "__main__":
-    sacco_data.add_farmer("FR001", 1000.00)
-    deposit_money("FR001", 500.00)
-    withdraw_money("FR001", 200.00)
-    withdraw_money("FR001", 2000.00) # Insufficient balance
-    deposit_money("FR002", 100.00)
+# if __name__ == "__main__":
+#     sacco_data.add_farmer("FR001", 1000.00)
+#     deposit_money("FR001", 500.00)
+#     withdraw_money("FR001", 200.00)
+#     withdraw_money("FR001", 2000.00) # Insufficient balance
+#     deposit_money("FR002", 100.00)
